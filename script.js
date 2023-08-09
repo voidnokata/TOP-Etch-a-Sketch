@@ -25,6 +25,7 @@ function createGrid() {
         const cell = document.createElement("div");
         cell.setAttribute("class", "cell");
         cell.style.backgroundColor = "white";
+        cell.style.borderRadius = "3px"
         cell.style.border = "1px solid black";
         cell.style.boxSizing = "border-box";
         cell.style.width = `${cellSize}%`;
@@ -49,7 +50,7 @@ function createGrid() {
 }
 
 function colorCell(cell) {
-    const color = useBlackColor ? "black" : getRandomColor();
+    const color = useBlackColor ? "black" : getRandomColor(); // Coloring the cells according to selected color mode
     cell.style.backgroundColor = color;
 }
 

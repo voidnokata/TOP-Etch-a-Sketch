@@ -1,8 +1,8 @@
 *{
-    font-family: monospace;
+    font-family: 'Lobster', cursive;
     margin: 0;
     padding: 0;
-    color: rgb(241, 239, 239)
+    color: rgb(27, 27, 27)
 }
 
 body {
@@ -18,17 +18,18 @@ body {
 }
 
 #header {
+    margin-top: 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 36px;
-    text-shadow: 5px 5px rgb(0, 0, 0);
+    font-size: 44px;
     margin-bottom: 15px;
 }
 
 #shadow {
     background-color: rgb(56, 54, 54);
     width: 500px;
-    height: 6px;
+    height: 4px;
+    border-radius: 1px;
 }
 
 #appborder {
@@ -37,10 +38,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 700px;
-    width: 650px;
+    width: 600px;
     border-radius: 35px;
-    background-color: rgb(255, 16, 31);
-    box-shadow: aqua;
+    background-color: rgba(245, 155, 0);
+    box-shadow: 35px 35px 40px rgb(0, 0, 0);
 }
 
 #controls {
@@ -54,6 +55,7 @@ body {
 #footer {
     font-size: 30px;
     margin-top: 50px;
+    color: rgba(245, 155, 0);
 }
 
 #grid {
@@ -61,6 +63,7 @@ body {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
 }
 
 #slider {
@@ -70,7 +73,11 @@ body {
 
 #resetButton,
 #blackButton {
+    font-size: 16px;
+    color: rgba(245, 155, 0);
     width: 120px;
     height: 40px;
-    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.795);
+    background-color: rgb(44, 43, 43);
 }

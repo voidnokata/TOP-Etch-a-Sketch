@@ -1,1 +1,1 @@
-# TOP-Etch-a-Sketch
+# A TOP assignment about an Etch-a-Sketch app.
