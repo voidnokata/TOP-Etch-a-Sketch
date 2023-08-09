@@ -2,10 +2,11 @@
     font-family: monospace;
     margin: 0;
     padding: 0;
+    color: rgb(241, 239, 239)
 }
 
 body {
-    background-color: rgb(41, 39, 39);
+    background-color: rgb(32, 31, 31);
 }
 
 #window {
@@ -17,10 +18,17 @@ body {
 }
 
 #header {
+    text-align: center;
     font-weight: bold;
-    font-size: 54px;
+    font-size: 36px;
     text-shadow: 5px 5px rgb(0, 0, 0);
-    color: rgb(145, 10, 10);
+    margin-bottom: 15px;
+}
+
+#shadow {
+    background-color: rgb(56, 54, 54);
+    width: 500px;
+    height: 6px;
 }
 
 #appborder {
@@ -29,14 +37,18 @@ body {
     align-items: center;
     justify-content: center;
     height: 700px;
-    width: 700px;
-    background-color: rgb(148, 4, 11);
+    width: 650px;
+    border-radius: 35px;
+    background-color: rgb(255, 16, 31);
+    box-shadow: aqua;
 }
 
 #controls {
     height: 100px;
-    width: 500px;
-    background-color: rgb(34, 32, 32);
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #footer {
@@ -51,3 +63,14 @@ body {
     flex-wrap: wrap;
 }
 
+#slider {
+    display: flex;
+    flex-direction: column;
+}
+
+#resetButton,
+#blackButton {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+}
